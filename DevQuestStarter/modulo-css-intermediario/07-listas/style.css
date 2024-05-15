@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    /* list-style-image: url(./images/Colebemis-Feather-Arrow-right-circle.16.png); */
+
+    background-color: orange;
+
+    list-style: square inside url(./images/Colebemis-Feather-Arrow-right-circle.16.png);
+}
+
+ul li {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+ol {
+    background-color: paleturquoise;
+
+    list-style: square inside url(./images/Colebemis-Feather-Arrow-right-circle.16.png);
+}
+
+ol li {
+    border: 1px solid black;
+    padding: 20px;
+}
