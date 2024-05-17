@@ -32,7 +32,6 @@ p {
 }
 
 .bg-position{
-    background-position: bottom right;
-    background-repeat: no-repeat;
+    background: #000 url(images/pexels-wojciech-kumpicki-1084687-2071873.jpg) no-repeat right top;
     height: 540px;
 }
