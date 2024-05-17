@@ -6,18 +6,33 @@ p {
 
 .bg {
     background-color: lightgreen;
+    background-image: url(./images/pexels-wojciech-kumpicki-1084687-2071873.jpg);
 }
 
 .bg-image {
-    width: 513px;
-    height: 340px;
+    width: 466px;
+    height: 701px;
 }
 
 .bg-repeat {
     background-repeat: no-repeat;
-    height: 540px;
+    height: 701px;
 }
 
 .bg-size-cover {
-    
+    background-size: cover;
+    height: 660px;
+    background-image: url(./images/pexels-marcus-pinho-328812-923360.jpg)
+}
+
+.bg-fixed{
+    background-attachment: fixed;
+    height: 540px;
+    background-image: url(./images/pexels-pixabay-57416.jpg)
+}
+
+.bg-position{
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    height: 540px;
 }
