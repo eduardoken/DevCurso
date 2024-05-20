@@ -1,0 +1,32 @@
+/* selector::pseudo-elemento {
+    propriedade: valor;
+} */
+
+.fisrt-letter::first-letter {
+    color: coral;
+}
+
+.first-line::first-line {
+    color: coral;
+}
+
+.first-line::first-letter {
+    color: blue;
+}
+
+li::marker {
+    color: red;
+    font-size: 23px;
+}
+
+.before::before {
+    content: "";
+    background: url(logo_css.png) center center no-repeat;
+    display: inline-block;
+    width: 50px;
+    height: 70px;
+}
+
+.after::after {
+    content: url(logo_css.png);
+}
