@@ -1,0 +1,41 @@
+/* seletor:pseudo-classe {
+    propriedade: valor;
+} */
+
+p:first-child {
+    color: aquamarine;
+}
+
+p:last-child {
+    color: blueviolet;
+}
+
+p:not(.padrao) {
+    color: green;
+}
+
+/* odd impar  |  even par */
+li:nth-child(even) {
+    color: red;
+}
+li:nth-child(odd) {
+    color: blue;
+}
+li:nth-child(3n) {
+    color: yellow;
+}
+li:nth-child(n+7):nth-child(-n+8) {
+    color: coral;
+}
+
+.none li {
+    color: black;
+}
+
+li:nth-last-child(1) {
+    color: crimson;
+}
+
+p:only-child {
+    color: crimson;
+}
