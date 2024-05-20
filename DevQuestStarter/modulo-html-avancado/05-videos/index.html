@@ -9,11 +9,21 @@
 
     <h1>Vídeos</h1>
 
-    <video src="videos/video.mp4" width="200" controls muted loop poster="images/videoframe_0.png"></video>
+    <!-- <video src="videos/video.mp4" width="200" controls muted loop poster="images/videoframe_0.png"></video> -->
+
+    <!-- videos não são recomendados gastam muita banda e espaço, subir pro youtube e usar iframe é mais recomendado e se caso o video seja privado, pode usar um provedor como o vimeo -->
+
+    <video controls width="300">
+        <source src="videos/video.mp4" type="video/mp4">
+        <source src="videos/video.ogv" type="video/ogv">
+        <source src="videos/video.webm" type="video/webm">
+
+        <p>Esse navegador não tem suporte a tag video</p>
+    </video>
 
     <p>
-        Vídeo de Joshua Woroniecki:
-        <a href=" https://www.pexels.com/pt-br/video/frio-com-frio-iceberg-neve-20325563/">clique aqui</a> para acessar
+        Vídeo de Nicky Pe:
+        <a href="https://www.pexels.com/pt-br/video/panorama-vista-paisagem-arvores-19089519/" target="_blank">clique aqui</a> para acessar
     </p>
 </body>
 </html>
