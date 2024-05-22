@@ -1,0 +1,27 @@
+:root {
+    --cor-padrao: crimson;
+    --tamanho-de-fonte-padrao: 20px;
+}
+
+h2 {
+    --cor-padrao: aquamarine;
+
+    color: var(--cor-padrao, aqua);
+    font-size: var(--tamanho-de-fonte-padrao);
+    background-color: var(--cor-padrao);
+}
+
+h3 {
+    color: var(--cor-padrao, aqua);
+    font-size: var(--tamanho-de-fonte-padrao);
+}
+
+p {
+    color: var(--cor-padrao, aqua);
+    font-size: var(--tamanho-de-fonte-padrao);
+}
+
+span {
+    color: var(--cor-padrao, aqua);
+    font-size: var(--tamanho-de-fonte-padrao);
+}
