@@ -61,6 +61,8 @@ hr{
     justify-content: space-between;
 }
 
+/* justify-content: space-evenly; 
+no lugar do padding */
 .engajamento li {
     font-weight: 700;
     padding: 19px;
