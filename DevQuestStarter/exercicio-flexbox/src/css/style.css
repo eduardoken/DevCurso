@@ -1,0 +1,70 @@
+body {
+    font-family: "Kumbh Sans", sans-serif;
+    background-color: var(--cor-fundo);
+    font-weight: 700;
+    font-size: 18px;
+}
+
+span {
+    color: var(--cor-texto);
+}
+
+hr{
+    width: 100%;
+}
+
+.conteiner {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner .cartao {
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 350px;
+}
+
+.dados-usuario .descricao {
+    display: flex;
+}
+
+.dados-usuario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 
+}
+
+.foto {
+    border-radius: 100%;
+    padding: 10px;
+}
+
+.descricao {
+    padding: 10px 10px 15px ;
+}
+
+.nome {
+    font-weight: 700;
+    padding: 0px 10px;
+}
+
+.cidade {
+    color: var(--cor-texto);
+}
+
+.engajamento {
+    display: flex;
+    justify-content: space-between;
+}
+
+.engajamento li {
+    font-weight: 700;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
