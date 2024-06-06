@@ -1,0 +1,6 @@
+:root {
+    --CordoTexto: hsl(193, 38%, 86%);
+    --CordoBotãoCardTexto: hsl(150, 100%, 66%);
+    --CordoCard: hsl(217, 19%, 24%);
+    --CordeFundo: hsl(218, 23%, 16%);
+}
