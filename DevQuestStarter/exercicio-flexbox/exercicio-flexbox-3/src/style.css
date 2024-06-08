@@ -1,0 +1,65 @@
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.indentificador {
+    display: flex;
+    align-items: center;
+}
+
+.conteiner .paginas {
+    display: flex;
+    align-items: center;
+}
+
+.conteiner .paginas p {
+    padding: 6px;
+    margin: 8px;
+}
+ 
+.conteiner .paginas p:hover {
+    color: #fff;
+    background-color: lawngreen;
+}  
+
+.conteiner .paginas button {
+    border-radius: 8px;
+    padding: 8px;
+    color: #fff;
+    background-color: limegreen;
+}
+
+.conteiner .paginas button:hover {
+    color: black;
+    background-color: lightseagreen;
+}
+
+@media(max-width:620px) {
+    .logo {
+        width: 25px;
+        height: 25px;
+    }
+    @media(min-width:530px){
+        .conteiner .indentificador h2,
+        .conteiner .paginas p {
+            font-size: 12px;
+        }
+    }
+}
+
+@media(max-width:530px) {
+    .conteiner {
+        display: block;
+        align-content: center;
+    }
+    .conteiner .indentificador {
+        justify-content: center;
+    }
+
+    .conteiner .paginas {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+}
