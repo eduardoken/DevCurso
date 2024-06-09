@@ -40,7 +40,7 @@ header {
     color: black;
     background-color: lightseagreen;
 }
-
+/* reponsivo.css */
 @media(max-width:620px) {
     .logo {
         width: 25px;
